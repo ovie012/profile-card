@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+    <title>Profile Card</title>
+</head>
+<body>
+    <div class="card">
+        <img src="profile.jpg" alt="Profile Picture" class="profile-picture" data-testid="profilePicture">
+        <h2 data-testid="fullName">Emonefe Ovie Ezekiel</h2>
+        <h3 data-testid="jobTitle">Frontend Developer</h3>
+        <div class="cover">
+            <div class="left">
+                <p data-testid="shortBio">I love bringing designs to life and exploring new technologies.</p>
+                <p data-testid="currentLocation">Lagos, Nigeria</p>
+                <p data-testid="emailAddress">ovieemonefe012@gmail.com</p>
+            </div>
+            <ul data-testid="techStack">
+                <h4>TECH STACK</h4>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>React</li>
+            </ul>
+        </div>
+        <div class="social-links" data-testid="socialLinks">
+            <a href="https://github.com/ovie012">🔗 GitHub</a>
+            <a href="https://www.linkedin.com/in/ovie-emonefe-73b886259/">🔗 LinkedIn</a>
+            <a href="https://x.com/legend_devv">🔗 Twitter</a>
+        </div>
+        <p data-testid="currentTimeUTC" id="utc-time">Loading time...</p>
+    </div>
+</body>
+</html>
